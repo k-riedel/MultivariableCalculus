@@ -143,7 +143,7 @@ Let's try to use our new definition.  Let $\vec r(t) = \mat{\cos t\\\sin t}$.  N
 		\displaystyle\frac{\cos(t+\Delta t)-\cos t}{\Delta t} \\\displaystyle\frac{\sin(t+\Delta t)-\sin t}{\Delta t}
 		}.
 \end{align*}
-At this point we should pause.  We don't know how to take limits of vectors.  Fortunately the rule
+At this point we should pause.  We don't know how to take limits of vectors.  Fortunately, the rule
 is simple enough---to take a limit of a vector, take the limit of each of its components\footnote{
 	As intuitive as it sounds, this rule actually has a proof which relies on the definition
 	of limit and the continuity of $\norm{\:\cdot\:}$.
@@ -185,11 +185,11 @@ The \emph{arc-length}\index{arc length} of $\mathcal S$
 should be the length of $\mathcal S$ if you somehow untwisted $\mathcal S$ into a straight
 line without stretching anything.  One of the big ideas of calculus is that 
 we can handle curvy things by chopping them up into little pieces, computing
-for each piece, and then adding them back together.  We use the same principle 
+for each piece, and then adding them back together.  We can use the same principle 
 to define arc-length.
 
 In essence, we will divide our curve $\mathcal S$ into many tiny line segments,
-add up the lengths of those line segments and take a limit as our line segments
+add up the lengths of those line segments, and take a limit as our line segments
 get tinier.  A parameterization provides us with a way to do this.  Since parameterizations
 are continuous, if we chop the domain of the parameterization into tiny pieces,
 we will have chopped the range into tiny pieces.
@@ -265,7 +265,7 @@ we will have chopped the range into tiny pieces.
 \end{center}
 
 To find the arc-length of a curve, we will approximate each tiny piece with a straight
-line segment connecting the endpoints.  We then add up the lengths of all tiny segments
+line segment that connects the endpoints.  We then add up the lengths of all tiny segments
 and take a limit as our segment's length goes to zero.
 
 \begin{definition}[Arc-length]
